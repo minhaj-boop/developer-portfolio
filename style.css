@@ -1,3 +1,33 @@
 body {
     font-family: 'Roboto Slab', serif;
 }
+
+h1 {
+    font-size: 50px;
+}
+
+.title-color {
+    color: teal;
+}
+
+section {
+    display: flex;
+}
+
+.half-width {
+    width: 50%;
+    padding-left: 2%;
+}
+
+.half-width img {
+    width: 80%;
+}
+
+.link-button {
+    text-decoration: none;
+    background-image: linear-gradient(teal, turquoise);
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 400;
+}
